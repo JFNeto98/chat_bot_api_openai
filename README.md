@@ -114,28 +114,9 @@ if texto_usuario:
 ---
 
 ## Como Executar o Projeto
-
-1. Instale as dependências:
-
-```bash
-pip install streamlit openai
 ```
 
-2. Defina a variável de ambiente com sua chave da OpenAI:
-
-**Windows (PowerShell):**
-
-```bash
-setx OPENAI_API_KEY "sua_api_key_aqui"
-```
-
-**Linux / Mac:**
-
-```bash
-export OPENAI_API_KEY="sua_api_key_aqui"
-```
-
-3. Execute a aplicação:
+Execute a aplicação:
 
 ```bash
 streamlit run chat_bot.py
